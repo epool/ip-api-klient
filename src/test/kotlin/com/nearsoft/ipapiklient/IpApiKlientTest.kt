@@ -1,5 +1,7 @@
-import models.IpError
-import models.IpInfo
+package com.nearsoft.ipapiklient
+
+import com.nearsoft.ipapiklient.models.IpError
+import com.nearsoft.ipapiklient.models.IpInfo
 import org.jetbrains.spek.api.Spek
 import org.jetbrains.spek.api.dsl.given
 import org.jetbrains.spek.api.dsl.it

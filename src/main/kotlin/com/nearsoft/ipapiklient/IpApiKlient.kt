@@ -1,8 +1,10 @@
+package com.nearsoft.ipapiklient
+
 import com.google.gson.GsonBuilder
-import gson.IpCheckResultAdapter
+import com.nearsoft.ipapiklient.gson.IpCheckResultAdapter
+import com.nearsoft.ipapiklient.models.IpCheckResult
+import com.nearsoft.ipapiklient.models.IpInfo
 import io.reactivex.Single
-import models.IpCheckResult
-import models.IpInfo
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

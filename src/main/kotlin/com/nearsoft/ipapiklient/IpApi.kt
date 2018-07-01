@@ -1,5 +1,7 @@
+package com.nearsoft.ipapiklient
+
+import com.nearsoft.ipapiklient.models.IpCheckResult
 import io.reactivex.Single
-import models.IpCheckResult
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

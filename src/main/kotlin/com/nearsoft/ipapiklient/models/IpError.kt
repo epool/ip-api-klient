@@ -1,4 +1,4 @@
-package models
+package com.nearsoft.ipapiklient.models
 
 /**
  * In case we don't have data on a specific field, the returned value will be, depending on the field type:

@@ -1,12 +1,12 @@
-package gson
+package com.nearsoft.ipapiklient.gson
 
 import com.google.gson.Gson
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer
 import com.google.gson.JsonElement
-import models.IpCheckResult
-import models.IpError
-import models.IpInfo
+import com.nearsoft.ipapiklient.models.IpCheckResult
+import com.nearsoft.ipapiklient.models.IpError
+import com.nearsoft.ipapiklient.models.IpInfo
 import java.lang.reflect.Type
 
 object IpCheckResultAdapter : JsonDeserializer<IpCheckResult> {
